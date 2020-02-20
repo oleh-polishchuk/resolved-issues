@@ -1,9 +1,9 @@
 # resolved-issues
 The list of issues that I successfully resolved
 
-#### Disable window scrolling while swiping horizontally [MOBILE]
+#### :question: Disable window scrolling while swiping horizontally [MOBILE]
 
-For React Class component:
+:white_check_mark: For React Class component:
 
 ```
 componentDidMount(){
@@ -36,7 +36,7 @@ preventTouch(e){
 }
 ```
 
-For React Functional component:
+:white_check_mark: For React Functional component:
 ```
   const [firstClientX, setFirstClientX] = useState();
   const [firstClientY, setFirstClientY] = useState();
